@@ -1,7 +1,7 @@
 name: rater
 description: A Flutter package for rating widget which is easy to implement and customize.
 version: 0.0.1
-homepage:
+repository: https://github.com/DarshanVanol/Rater_package
 
 environment:
   sdk: '>=2.18.0-165.1.beta <3.0.0'

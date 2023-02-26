@@ -20,7 +20,7 @@ class Rating extends StatefulWidget {
   final TextStyle activeLableStyle;
   final TextStyle inActiveLableStyle;
 
-  Rating({
+  const Rating({
     super.key,
     required this.onChangeRating,
     this.lables,
@@ -139,7 +139,7 @@ class _RatingEntity extends StatelessWidget {
 
   final int currentRate;
   const _RatingEntity(
-      {super.key,
+      {
         required this.onTap,
         required this.enableLable,
         required this.iconData,
@@ -159,7 +159,7 @@ class _RatingEntity extends StatelessWidget {
   Widget build(BuildContext context) {
     return Padding(
       padding: padding,
-      child: Container(
+      child: SizedBox(
         width: entityWidth,
         child: Center(
           child: Column(
