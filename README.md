@@ -19,18 +19,39 @@ A dart package for rating widget which is easy to implement and customize.
 2. Supports vertical layout.
 3. Set customizable lables for each rating accordingly.
 
+![Screenshot](screenshot.png)
 
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+```dart
+Rating({
+    super.key,
+    required this.onChangeRating,
+    this.lables,
+    this.entityWidth = 40.0,
+    this.initialRating = -1,
+    this.enableLable = false,
+    this.iconData = Icons.star,
+    this.direction = Axis.horizontal,
+    this.activeColor = Colors.amber,
+    this.inActiveColor = Colors.grey,
+    this.rateOutOf = 5,
+    this.iconSize = 30.0,
+    this.entityPadding = const EdgeInsets.symmetric(horizontal: 5.0),
+    this.activeLableStyle = const TextStyle(
+      color: Colors.amber,
+    ),
+    this.inActiveLableStyle = const TextStyle(
+      color: Colors.grey,
+    ),
+    this.verticalLabelSpace = 0.0,
+  });
+```
 
 ## Usage
 
-#Import the package 
-To use this plugin, follow the [plugin installation instructions] (https://pub.dev/packages/google_sign_in/install).
+### Import the package 
+To use this plugin, follow the [plugin installation instructions](https://pub.dev/packages/google_sign_in/install).
 
-#Use the plugin 
+### Use the package 
 Add the following import to your Dart code:
 ```dart
 import 'package:rater/rater.dart';
@@ -61,9 +82,9 @@ You can use Rater class now, to add rating widget.
 
 ## Additional information
 
+Feel Free to request any missing features or report issues [here](https://github.com/DarshanVanol/Rater_package/issues).
 
-
-##Licence
+## Licence
 ```
 Copyright © 2023 Darshan Vanol
 
