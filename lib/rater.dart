@@ -166,7 +166,7 @@ class _RatingEntity extends StatelessWidget {
             mainAxisSize: MainAxisSize.min,
             children: [
               InkWell(
-                  overlayColor: MaterialStatePropertyAll(Colors.transparent),
+                  overlayColor: const MaterialStatePropertyAll(Colors.transparent),
                   onTap: onTap,
                   child: Icon(
                     iconData,
@@ -183,7 +183,7 @@ class _RatingEntity extends StatelessWidget {
                   style: ratingModel.id == currentRate
                       ? activeLableStyle
                       : inActiveLableStyle)
-                  : SizedBox()
+                  : const SizedBox()
             ],
           ),
         ),
