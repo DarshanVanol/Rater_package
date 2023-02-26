@@ -19,7 +19,7 @@ A dart package for rating widget which is easy to implement and customize.
 2. Supports vertical layout.
 3. Set customizable lables for each rating accordingly.
 
-![ ](/screenshot.png)
+![ ](https://github.com/DarshanVanol/Rater_package/blob/master/screenshot.png)
 
 ```dart
 Rating({
